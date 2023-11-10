@@ -13,13 +13,13 @@
         "moduleResolution": "bundler",
         "allowImportingTsExtensions": true,
         "resolveJsonModule": true,
-        "isolatedModules": true,
         "noEmit": true,
         /* Linting */
         "strict": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
-        "noFallthroughCasesInSwitch": true
+        "noFallthroughCasesInSwitch": true,
+        "types": ["./types/fin"]
     },
     "include": [
         "src"

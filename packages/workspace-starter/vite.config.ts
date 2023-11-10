@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
     build: {
-        outDir: '../../docs/workspace-starter'
+        outDir: '../../docs/workspace-starter',
+        emptyOutDir: true
     }
 });

@@ -6,26 +6,26 @@
         "version": "32.114.76.20"
     },
     "platform": {
-        "uuid": "workspace-platform-start-basic",
-        "icon": "https://built-on-openfin.github.io/workspace-starter/workspace/v15.0.0/workspace-platform-starter-basic/favicon.ico",
+        "uuid": "epam-openfin-demo",
+        "icon": "https://robmazan.github.io/epam-openfin-demo/workspace-starter/favicon.ico",
         "autoShow": false,
-        "providerUrl": "https://built-on-openfin.github.io/workspace-starter/workspace/v15.0.0/workspace-platform-starter-basic/platform/provider.html",
+        "providerUrl": "https://robmazan.github.io/epam-openfin-demo/workspace-starter/index.html",
         "preventQuitOnLastWindowClosed": true
     },
     "shortcut": {
-        "company": "OpenFin",
-        "description": "A way of showing examples of what OpenFin can do.",
-        "icon": "https://built-on-openfin.github.io/workspace-starter/workspace/v15.0.0/workspace-platform-starter-basic/favicon.ico",
-        "name": "Workspace Platform Starter Basic - v15.0.0",
+        "company": "Epam",
+        "description": "Epam OpenFin Demo",
+        "icon": "https://robmazan.github.io/epam-openfin-demo/workspace-starter/favicon.ico",
+        "name": "Epam OpenFin Demo",
         "target": [
             "desktop",
             "start-menu"
         ]
     },
     "supportInformation": {
-        "company": "OpenFin",
-        "product": "Workspace Starter - Workspace Platform Starter Basic- Client",
-        "email": "support@openfin.co",
+        "company": "Epam Systems",
+        "product": "Epam OpenFin Demo",
+        "email": "support@example.com",
         "forwardErrorReports": true
     },
     "customSettings": {
