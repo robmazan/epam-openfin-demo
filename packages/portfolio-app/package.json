@@ -1,0 +1,33 @@
+{
+  "name": "portfolio-app",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Robert Mazan <mazan.robert@gmail.com>",
+  "homepage": "https://github.com/robmazan/epam-openfin-demo#readme",
+  "license": "ISC",
+  "main": "lib/portfolio-app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robmazan/epam-openfin-demo.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "bugs": {
+    "url": "https://github.com/robmazan/epam-openfin-demo/issues"
+  },
+  "dependencies": {
+    "@finos/fdc3": "^2.1.0-beta.4",
+    "@openfin/workspace": "^15.0.11",
+    "@openfin/workspace-platform": "^15.0.11"
+  }
+}

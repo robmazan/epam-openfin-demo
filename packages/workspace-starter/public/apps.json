@@ -1,0 +1,25 @@
+[
+	{
+		"appId": "portfolio-app",
+		"name": "portfolio-app",
+		"title": "Portfolio App",
+		"description": "Portfolio App",
+		"manifest": "https://robmazan.github.io/epam-openfin-demo/portfolio-app/portfolio-app.view.fin.json",
+		"manifestType": "view",
+		"icons": [
+			{
+				"src": "https://robmazan.github.io/epam-openfin-demo/portfolio-app/favicon-32x32.png"
+			}
+		],
+		"contactEmail": "contact@example.com",
+		"supportEmail": "support@example.com",
+		"publisher": "Epam",
+		"intents": [],
+		"images": [
+			{
+				"src": "https://robmazan.github.io/epam-openfin-demo/portfolio-app/logo.jpg"
+			}
+		],
+		"tags": ["view", "openfin", "versions"]
+	}
+]
