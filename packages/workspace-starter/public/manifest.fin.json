@@ -29,6 +29,6 @@
         "forwardErrorReports": true
     },
     "customSettings": {
-        "appsUrl": "https://built-on-openfin.github.io/workspace-starter/workspace/v15.0.0/workspace-platform-starter-basic/apps.json"
+        "appsUrl": "https://robmazan.github.io/epam-openfin-demo/workspace-starter/apps.json"
     }
 }
