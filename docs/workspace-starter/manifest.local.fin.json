@@ -1,0 +1,34 @@
+{
+    "devtools_port": 9090,
+    "licenseKey": "openfin-demo-license-key",
+    "runtime": {
+        "arguments": "--v=1 --inspect",
+        "version": "32.114.76.20"
+    },
+    "platform": {
+        "uuid": "epam-openfin-demo",
+        "icon": "http://localhost:8080/workspace-starter/favicon.ico",
+        "autoShow": false,
+        "providerUrl": "http://localhost:8080/workspace-starter/index.html",
+        "preventQuitOnLastWindowClosed": true
+    },
+    "shortcut": {
+        "company": "Epam",
+        "description": "Epam OpenFin Demo",
+        "icon": "http://localhost:8080/workspace-starter/favicon.ico",
+        "name": "Epam OpenFin Demo",
+        "target": [
+            "desktop",
+            "start-menu"
+        ]
+    },
+    "supportInformation": {
+        "company": "Epam Systems",
+        "product": "Epam OpenFin Demo",
+        "email": "support@example.com",
+        "forwardErrorReports": true
+    },
+    "customSettings": {
+        "appsUrl": "http://localhost:8080/workspace-starter/apps.local.json"
+    }
+}

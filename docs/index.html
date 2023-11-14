@@ -8,7 +8,18 @@
 <body>
     <h1>EPAM OpenFin Demo</h1>
     <ul>
-        <li><a href="fins://robmazan.github.io/epam-openfin-demo/workspace-starter/manifest.fin.json">Workspace Starter</a></li>
+        <li><a id="workspace-starter-link" href="fins://robmazan.github.io/epam-openfin-demo/workspace-starter/manifest.fin.json">Workspace Starter</a></li>
     </ul>
+    <script>
+        /*
+         * Local development support: use manifest.local.fin.json on localhost, manifest.fin.json everywhere else.
+         */
+        document
+            .getElementById("workspace-starter-link")
+            .setAttribute(
+                "href",
+                `${window.location.protocol === "https:" ? "fins:" : "fin:"}//${window.location.host}${window.location.pathname}workspace-starter/manifest${window.location.hostname === "localhost" ? ".local" : ""}.fin.json`
+            );
+    </script>
 </body>
 </html>

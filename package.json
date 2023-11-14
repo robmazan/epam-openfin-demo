@@ -5,7 +5,9 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "build:local": "lerna run build:local",
+    "serve": "npx http-server ./docs"
   },
   "dependencies": {},
   "devDependencies": {

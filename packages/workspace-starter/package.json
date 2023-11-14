@@ -20,6 +20,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "build:local": "tsc && vite build --base /workspace-starter",
     "preview": "vite preview"
   },
   "bugs": {
